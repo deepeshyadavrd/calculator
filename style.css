@@ -1,0 +1,21 @@
+:root {
+    --color-bg: rgb(47, 0, 90);
+    --gr-1: radial-gradient(
+      circle 929px at 0.6% 1.3%,
+      rgb(242, 242, 48) 0%,
+      rgba(145, 242, 145, 1) 82.6%
+    );
+    --gr-2: radial-gradient(
+      circle 972.6px at 10% 20%,
+      rgba(214, 40, 40, 1) 0%,
+      rgba(247, 127, 0, 1) 90%
+    );
+  }
+  
+  body{
+    margin: 0;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+    display: grid;
+    place-items: center;
+  }
