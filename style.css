@@ -61,6 +61,17 @@
     height: 10rem;
   }
 
+  .screen{
+    position: absolute;
+    bottom: 0.5rem;
+    width: 98%;
+    font-size: 3em;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    text-align: right;
+  }
+
   .buttons {
     height: 20rem;
     display: grid;
@@ -77,4 +88,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
+    font-size: 1.2em;
+  }
+
+  .buttons > div:hover{
+    background-color: rgba(255,255,255, 0.2);
+  }
+
+  .buttons > div:active{
+    background-color: rgba(255,255,255, 0.5);
+  }
+
+  sup{
+    font-size: 0.8em;
+    transform: translateY(-6px);
   }
