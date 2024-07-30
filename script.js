@@ -12,14 +12,14 @@ buttons.addEventListener('click', (e) =>{
     switch (value) {
         case 'C':
             screen.textContent = '';
-            let screenVal = screen.textContent;
+            screenVal = screen.textContent;
             return;
     
         case '=':
-            screen.textContent = eval(screenVal.replace('x','*'));
+            screen.textContent = eval(screenVal.replace('×','*'));
             return;
 
-        case 'x2':
+        case '×2':
             screen.textContent = eval(screenVal * screenVal);
             return;
         
